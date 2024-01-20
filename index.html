@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <a href="index.html" class="cabecalho__link">Home</a>
+      <a href="about.html" class="cabecalho__link">Sobre mim</a>
+    </header>
+    <main class="page">
+      <img
+        src="assets/image.jpeg"
+        class="page__img"
+        alt="Foto do João Gabriel"
+      />
+      <h1 class="page__titulo">Bem vindo(a)!</h1>
+      <section class="page__section">
+        <p class="page__conteudo">
+          Olá! Meu nome é João Gabriel, sou um entusiasta da programação e
+          cibersegurança, com foco especial em aplicações Android. Possuo
+          habilidades sólidas nas linguagens
+          <span class="destaque">Java/Kotlin</span>,
+          <span class="destaque">MySQL</span>, além de proficiência em
+          <span class="destaque">HTML</span>,
+          <span class="destaque">CSS</span> e
+          <span class="destaque">JavaScript</span> para aplicações web. Minha
+          paixão é criar aplicações que não apenas atendam às necessidades
+          básicas, mas que também alcancem a máxima performance, proporcionando
+          uma experiência agradável para todos os públicos!
+        </p>
+      </section>
+      <section class="links">
+        <h1 class="links__title">Acesse minhas redes</h1>
+        <a
+          href="https://github.com/JoaoGabrielBr246"
+          class="links__link"
+          onmouseover="changeImageGit(this)"
+          onmouseout="restoreImageGit(this)"
+        >
+          <img src="assets/git-icon.png" id="githubImage" />Github
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-lima-da-rocha-05a980225/"
+          class="links__link"
+          onmouseover="changeImageLinkedin(this)"
+          onmouseout="restoreImageLinkedin(this)"
+        >
+          <img src="assets/linkedin-icon.png" id="linkedinImage" />LinkedIn</a
+        >
+
+        <a
+          href="https://www.instagram.com/joaogabb.jar/"
+          class="links__link"
+          onmouseover="changeImageInsta(this)"
+          onmouseout="restoreImageInsta(this)"
+        >
+          <img src="assets/icon-insta.png" id="instagramImage" />Instagram</a
+        >
+      </section>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
